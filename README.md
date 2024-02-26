@@ -220,10 +220,10 @@ This menu allows to choose the gauge to be used and to change the default values
     - change the polynomial degree up to 7
 
   - **Min NNN**
-    - Show the fit range minimum value and let to change it. **Enter value** let the user to manually input the new value, **Set NNN** directly set the value NNN wher NNN is the actual cursor position showed by a dotted vertical line on the graph (left mouse click on the graph to change it)
+    - Show the fit range minimum value and let to change it. **Enter value** let the user to manually input the new value, **Set NNN** directly set the value NNN where NNN is the actual cursor position showed by a dotted vertical line on the graph (left mouse click on the graph to change it)
   
   - **Max NNN**
-    - Show the fit range minimum value and let to change it. **Enter value** let the user to manually input the new value, **Set NNN** directly set the value NNN wher NNN is the actual cursor position showed by a dotted vertical line on the graph (left mouse click on the graph to change it)
+    - Show the fit range minimum value and let to change it. **Enter value** let the user to manually input the new value, **Set NNN** directly set the value NNN where NNN is the actual cursor position showed by a dotted vertical line on the graph (left mouse click on the graph to change it)
   
   - **Iter Lim**
     - The maximum number of iterations used in the minimization routine. The default value is 150
@@ -304,11 +304,17 @@ sigma (cm-1) = 0.637
 
 Ocean Optics HR4000, based on [python-seabreeze](https://python-seabreeze.readthedocs.io/en/latest/install.html)
 
-## Contact
+## Author
+
+**Yiuri Garino**  
+
+## Contacts
 
 **Yiuri Garino**  
 - yiuri.garino@cnrs.fr
-
+   
+**Silvia Boccato**
+- silvia.boccato@cnrs.fr
   
 <img src="https://github.com/CelluleProjet/Rubycond/assets/83216683/b728fe64-2752-4ecd-843b-09d335cf4f93" width="100" height="100">
 <img src="https://github.com/CelluleProjet/Rubycond/assets/83216683/0a81ce1f-089f-49d8-ae65-d19af8078492" width="100" height="100">
