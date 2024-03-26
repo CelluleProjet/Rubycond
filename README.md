@@ -3,13 +3,14 @@ Pressure by Ruby Luminescence (PRL) software to determine pressure in diamond an
 
 ## Install
 
-1) Download and install Anaconda or Miniconda:
-   
-   - Anaconda  
-   https://docs.anaconda.com/anaconda/install/
+1) Download and install Miniconda **OR** Anaconda (NOT both):
 
    - Miniconda  
    https://docs.anaconda.com/free/miniconda/miniconda-install/
+  
+   - Anaconda  
+   https://docs.anaconda.com/anaconda/install/
+
 
 2) from anaconda prompt (windows) or terminal (Ubuntu & MAC) create a virtual environment with name "my_env":
 
