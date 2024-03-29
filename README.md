@@ -327,7 +327,7 @@ Ocean Optics HR4000, based on [python-seabreeze](https://python-seabreeze.readth
 ## License
 Rubycond: Pressure by Ruby Luminescence (PRL) software to determine pressure in diamond anvil cell experiments
 
-Copyright (c) 2022-2023 Yiuri Garino
+Copyright (c) 2022-2024 Yiuri Garino
 
 Rubycond is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
