@@ -1,0 +1,33 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Laboratory Instrumentation",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0003-2867-1909",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CNRS"
+            },
+            "email": "yiuri.garino@cnrs.fr",
+            "familyName": "GARINO",
+            "givenName": "Yiuri"
+        }
+    ],
+    "codeRepository": "https://github.com/CelluleProjet/Rubycond",
+    "dateCreated": "2023-03-20",
+    "dateModified": "2024-03-29",
+    "datePublished": "2024-02-22",
+    "description": "Pressure by Ruby Luminescence (PRL) software to determine pressure in diamond anvil cell experiments",
+    "downloadUrl": "https://github.com/CelluleProjet/Rubycond",
+    "keywords": [
+        "Laboratory Instrumentation",
+        "Ruby Luminescence",
+        "high pressure"
+    ],
+    "license": "https://spdx.org/licenses/GPL-3.0+",
+    "name": "Rubycond",
+    "programmingLanguage": "Python",
+    "version": "0.1.2"
+}
