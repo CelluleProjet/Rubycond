@@ -3,17 +3,25 @@
 
 Rubycond: Pressure by Ruby Luminescence (PRL) software to determine pressure in diamond anvil cell experiments.
 
-Version 0.1.0
-Release 240222
+Version 0.1.2
+Release 240227
 
 Author:
 
 Yiuri Garino:
-     yiuri.garino@cnrs.fr   
 
 Copyright (c) 2023-2024 Yiuri Garino
 
-Download: https://github.com/CelluleProjet/Rubycond
+Download: 
+    https://github.com/CelluleProjet/Rubycond
+
+Contacts:
+
+Yiuri Garino
+    yiuri.garino@cnrs.fr
+
+Silvia Boccato
+    silvia.boccato@cnrs.fr
 
 License: GPLv3
 
@@ -160,19 +168,26 @@ class Main:
 
 Rubycond: Pressure by Ruby Luminescence (PRL) software to determine pressure in diamond anvil cell experiments.
 
-Version 0.1.0
-Release 240222
+Version 0.1.2
+Release 240227
 
 Author:
 
 Yiuri Garino:
-     yiuri.garino@cnrs.fr   
 
 Copyright (c) 2023-2024 Yiuri Garino
 
 Download: 
     https://github.com/CelluleProjet/Rubycond
 
+Contacts:
+
+Yiuri Garino
+    yiuri.garino@cnrs.fr
+
+Silvia Boccato
+    silvia.boccato@cnrs.fr
+    
 License: GPLv3
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -1134,10 +1149,13 @@ ctrl + v = Save fit
         
         if fit == "Double Voigt" or fit == "Double Lorentz" or fit == "Double Gauss":
             self.R2_center = self.out.params['pk_2_center'].value
-            self.R2_gamma = self.out.params["pk_2_gamma"].value
             self.R2_fwhm = self.out.params['pk_2_fwhm'].value
-        
-        
+            
+            if fit == "Double Voigt":
+                self.R2_gamma = self.out.params["pk_2_gamma"].value
+            else:
+                self.R2_gamma = self.out.params["pk_2_sigma"].value
+                
     def Update_spectra(self):
         
         if self.acquire_continuos_status.get() or self.acquire_snap_status.get():
@@ -1918,9 +1936,14 @@ ctrl + v = Save fit
             
             delta =  14450.8 - 14421.8 #Syassen Table 4
             
-            self.pars['pk_2_center'].value = center + delta
-            self.pars['pk_2_center'].max = x0
-            self.pars['pk_2_center'].min = x1
+            self.pars.add('delta', value=delta,  vary=True, min=1)
+            
+            self.pars['pk_2_center'].expr = 'pk_center + delta'
+            # self.pars['pk_2_center'].value = center + delta
+            # self.pars['pk_2_center'].max = x0
+            # self.pars['pk_2_center'].min = x1
+            
+            
             
             self.pars['pk_gamma'].set(vary=True, expr='')
             self.pars['pk_gamma'].vary = True
@@ -2358,7 +2381,7 @@ from {self.int_limits[0]} μs to {self.int_limits[1]/1e6} s", parent=self.root, 
             pars_auto = ['pk_center','pk_amplitude','pk_sigma','pk_2_center', 'pk_2_amplitude' , 'pk_2_sigma']
             
         elif fit == "Double Voigt" :
-            pars_auto = ['pk_center','pk_amplitude','pk_gamma','pk_2_center','pk_2_amplitude','pk_2_gamma']  
+            pars_auto = ['pk_center','pk_amplitude','pk_gamma','delta','pk_2_amplitude','pk_2_gamma']  
         
         for i in pars_auto:
             self.pars[i].value = self.out.params[i].value
