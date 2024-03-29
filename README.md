@@ -334,3 +334,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
+## Release notes
+
+Version 0.1.1 Release 240222: First release  
+Version 0.1.2 Release 240227: Fixed "LMFIT Error: pk_2_gauss" bug when "Double Gauss" fit function is selected  
