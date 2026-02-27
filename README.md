@@ -62,9 +62,10 @@ Displays the target cooling temperature and the current temperature.
     - change the acquisition integration time in seconds, default value is 0.1 seconds
   - **Accumulation**
     - change the number of accumulations, default value is 1  
+  
 ### Fit
 > [!IMPORTANT]
-> Fit are always performed to the data with Wavelenghts in cm⁻¹
+> Fit are always performed to the data with Wavelenghts in cm⁻¹  
   
 <img width="235" height="255" alt="4_Fit_commands" src="https://github.com/user-attachments/assets/461a4173-5cf5-43b8-8e3a-300a479d6262" />
 
@@ -92,7 +93,7 @@ Displays the target cooling temperature and the current temperature.
     - If not selected the Fit initial condition are automatically evaluated when the Fit range is changed (**Fit:Min** and **Fit:Max**), so not taking in account eventual changement in the afterwards acquired signal.
     - If selected the Fit results are used as the Fit initial condition in the next Fit.
   - **Report**
-    - Opens a window with the detailed fit report
+    - Opens a window with the detailed fit report  
   
 ### Gauge  
   
@@ -120,7 +121,7 @@ This menu allows to choose the gauge to be used and to change the default values
   - λ₀ (nm) = 685.51
   - P Calibration
     - Rashchenko 2015
-    - Datchi 1997
+    - Datchi 1997  
   
 ### Logger  
   
