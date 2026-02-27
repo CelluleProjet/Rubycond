@@ -1,7 +1,8 @@
 # Rubycond
 Python software to determine pressure in diamond anvil cell experiments by Ruby and Samarium luminescence  
   
-<img width="1108" height="705" alt="fullscreen_Ruby" src="https://github.com/user-attachments/assets/d78b5e29-4230-41aa-9dbe-e33dd1ed3bd4" />
+
+<img width="1108" height="705" alt="fullscreen_Ruby" src="https://github.com/user-attachments/assets/99f2eddd-f358-4436-adcc-3c99461de05b" />
 
 
   
@@ -11,7 +12,8 @@ Python software to determine pressure in diamond anvil cell experiments by Ruby 
 > All controls are available both in the left sidebar and within the menus, with the exception of the items in the Help menu, which are only accessible through the menu bar. The left sidebar can be hidden to maximize the size of the figures.
 
 ## File
-<img width="243" height="98" alt="1_File" src="https://github.com/user-attachments/assets/698e9f2f-cbed-438c-b1fd-59192d73d976" />  
+<img width="243" height="98" alt="1_File" src="https://github.com/user-attachments/assets/fd54b6e5-208c-4a74-aed8-0e553779034d" />
+
 
   - **Save**
     - Save the data in txt, csv and npy format (wavelenghts, intensity), plus all the accumulations if the **Measurement:Accumulation** option is selected. Save the header in rtf format, with a resume of the performed analisys. Save the main figure in png format.
@@ -23,11 +25,13 @@ Python software to determine pressure in diamond anvil cell experiments by Ruby 
     - Quit the main program
 
 ## Spectrometer
-<img width="240" height="165" alt="Spectrometer_commands" src="https://github.com/user-attachments/assets/e6140fed-e6c4-436b-9754-d0f67fb89a4a" />  
+<img width="240" height="165" alt="Spectrometer_commands" src="https://github.com/user-attachments/assets/e0c25d2b-1d22-49e9-9322-1a87d8082c7f" />
+  
   
   - **Calib Params**
      - Opens the **Calibration Parameters** window to manually input data, manage calibration files (Open/Save), or edit the default settings.  Click Accept when finished to confirm the new values.
-   <img width="213" height="362" alt="2_Calibration_Parameters" src="https://github.com/user-attachments/assets/4466c19c-eb22-43e6-b8a3-61eb5af63792" />
+   <img width="213" height="362" alt="2_Calibration_Parameters" src="https://github.com/user-attachments/assets/28bfcf47-0cbe-490e-bf2a-6bc99a4a0f24" />
+
   
   - **User Calib**
      - Select to use the calibration
@@ -39,12 +43,14 @@ Python software to determine pressure in diamond anvil cell experiments by Ruby 
      - Enable background subtraction to remove the stored reference from the active measurement
 
 ## Cooler :warning: Available only for Andor spectrometers.
-<img width="240" height="69" alt="Cooler" src="https://github.com/user-attachments/assets/34aa6d2b-4458-4da0-8216-d5338fde0ed1" />  
+<img width="240" height="69" alt="Cooler" src="https://github.com/user-attachments/assets/ab69dca1-1419-4509-8427-ea2caca1b3f1" />
+
 
 Displays the target cooling temperature and the current temperature. 
 
 ### Measurements
-<img width="239" height="177" alt="3_Measurements_commands" src="https://github.com/user-attachments/assets/058c5be8-3a32-47ac-a395-c13d082b16c4" />
+<img width="239" height="177" alt="3_Measurements_commands" src="https://github.com/user-attachments/assets/340de293-2998-4d0e-a448-5ed040ae5213" />
+
 
 
   - **Snap**
@@ -58,7 +64,8 @@ Displays the target cooling temperature and the current temperature.
 ### Fit
 > [!IMPORTANT]
 > Fit are always performed to the data with Wavelenghts in cm⁻¹
-<img width="235" height="255" alt="4_Fit_commands" src="https://github.com/user-attachments/assets/edada1fb-c67b-42b3-9a4b-eff715a4fd5f" />
+<img width="235" height="255" alt="4_Fit_commands" src="https://github.com/user-attachments/assets/461a4173-5cf5-43b8-8e3a-300a479d6262" />
+
 
   - **Snap**
     - perform a single fit
@@ -85,7 +92,8 @@ Displays the target cooling temperature and the current temperature.
   - **Report**
     - Opens a window with the detailed fit report  
 ### Gauge
-<img width="237" height="304" alt="5_Gauge_Commands" src="https://github.com/user-attachments/assets/0e75939d-769b-458c-b3ba-782e2ebd8d53" />  
+<img width="237" height="304" alt="5_Gauge_Commands" src="https://github.com/user-attachments/assets/41146a05-43d9-48eb-a3b1-b4ec75317a67" />
+
 
 This menu allows to choose the gauge to be used and to change the default values for the reference wavelenghts and temperatures to be used both for Ruby and Samarium Sm²⁺:SrB₄O₇.  
 
@@ -110,7 +118,8 @@ This menu allows to choose the gauge to be used and to change the default values
     - Rashchenko 2015
     - Datchi 1997
 ### Logger
-<img width="241" height="180" alt="6_logger" src="https://github.com/user-attachments/assets/0321ab96-1384-4b69-b9d3-ede52f417e92" />  
+<img width="241" height="180" alt="6_logger" src="https://github.com/user-attachments/assets/6f3586f8-9b62-4d48-a928-68823c214088" />
+ 
 
 WIP, not yet implemented  
 
