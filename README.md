@@ -30,7 +30,8 @@ Python software to determine pressure in diamond anvil cell experiments by Ruby 
   
   - **Calib Params**
      - Opens the **Calibration Parameters** window to manually input data, manage calibration files (Open/Save), or edit the default settings.  Click Accept when finished to confirm the new values.
-   <img width="213" height="362" alt="2_Calibration_Parameters" src="https://github.com/user-attachments/assets/28bfcf47-0cbe-490e-bf2a-6bc99a4a0f24" />
+  
+<img width="213" height="362" alt="2_Calibration_Parameters" src="https://github.com/user-attachments/assets/28bfcf47-0cbe-490e-bf2a-6bc99a4a0f24" />
 
   
   - **User Calib**
@@ -60,10 +61,11 @@ Displays the target cooling temperature and the current temperature.
   - **Int Time (s)**
     - change the acquisition integration time in seconds, default value is 0.1 seconds
   - **Accumulation**
-    - change the number of accumulations, default value is 1
+    - change the number of accumulations, default value is 1  
 ### Fit
 > [!IMPORTANT]
 > Fit are always performed to the data with Wavelenghts in cm⁻¹
+  
 <img width="235" height="255" alt="4_Fit_commands" src="https://github.com/user-attachments/assets/461a4173-5cf5-43b8-8e3a-300a479d6262" />
 
 
@@ -90,8 +92,10 @@ Displays the target cooling temperature and the current temperature.
     - If not selected the Fit initial condition are automatically evaluated when the Fit range is changed (**Fit:Min** and **Fit:Max**), so not taking in account eventual changement in the afterwards acquired signal.
     - If selected the Fit results are used as the Fit initial condition in the next Fit.
   - **Report**
-    - Opens a window with the detailed fit report  
-### Gauge
+    - Opens a window with the detailed fit report
+  
+### Gauge  
+  
 <img width="237" height="304" alt="5_Gauge_Commands" src="https://github.com/user-attachments/assets/41146a05-43d9-48eb-a3b1-b4ec75317a67" />
 
 
@@ -117,7 +121,9 @@ This menu allows to choose the gauge to be used and to change the default values
   - P Calibration
     - Rashchenko 2015
     - Datchi 1997
-### Logger
+  
+### Logger  
+  
 <img width="241" height="180" alt="6_logger" src="https://github.com/user-attachments/assets/6f3586f8-9b62-4d48-a928-68823c214088" />
  
 
