@@ -29,7 +29,7 @@ Python software to determine pressure in diamond anvil cell experiments by Ruby 
   
   
   - **Calib Params**
-     - Opens the **Calibration Parameters** window to manually input data, manage calibration files (Open/Save), or edit the default settings.  Click Accept when finished to confirm the new values.
+     - Opens the **Calibration Parameters** window to manually input data, manage calibration files (Open/Save), or edit the default settings.  Click Accept when finished to confirm the new values.  
   
 <img width="213" height="362" alt="2_Calibration_Parameters" src="https://github.com/user-attachments/assets/28bfcf47-0cbe-490e-bf2a-6bc99a4a0f24" />
 
@@ -65,7 +65,7 @@ Displays the target cooling temperature and the current temperature.
   
 ### Fit
 > [!IMPORTANT]
-> Fit are always performed to the data with Wavelenghts in cm⁻¹  
+> Fit are always performed to the data with Wavelenghts in cm⁻¹.  
   
 <img width="235" height="255" alt="4_Fit_commands" src="https://github.com/user-attachments/assets/461a4173-5cf5-43b8-8e3a-300a479d6262" />
 
