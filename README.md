@@ -174,12 +174,26 @@ Use pip to install the program **within a virtual environment (strongly recommen
 ```bash
 pip install rubycond
 ```
-5) OPTIONAL: Install the [python-seabreeze](https://python-seabreeze.readthedocs.io/en/latest/install.html) for the Ocean Optics spectrometers:
+To update:
+```bash
+pip install rubycond --upgrade
+```
+# Supported spectrometers
+Ocean Optics and Andor spectrometers. To change spectrometer, uncomment the corresponding line (line 131 or 132). Default is OceanOptics.
+```bash
+self.spectrometer_model = "OceanOptics" 
+#self.spectrometer_model = "Andor" 
+```
+## Ocean Optics spectrometers  
+Install the [python-seabreeze](https://python-seabreeze.readthedocs.io/en/latest/install.html) for the Ocean Optics spectrometers:
 
 ```bash
 conda install -c conda-forge seabreeze
 seabreeze_os_setup
 ```
+## Andor spectrometers  
+Using Andor spectrometers requires the purchase and installation of the official Oxford Instruments Software Development Kit (SDK).  
+
 # About
 ## Author
 
