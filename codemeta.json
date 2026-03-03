@@ -17,8 +17,8 @@
     ],
     "codeRepository": "https://github.com/CelluleProjet/Rubycond",
     "dateCreated": "2023-03-20",
-    "dateModified": "2024-03-29",
-    "datePublished": "2024-02-22",
+    "dateModified": "2026-03-01",
+    "datePublished": "2026-03-01",
     "description": "Pressure by Ruby Luminescence (PRL) software to determine pressure in diamond anvil cell experiments",
     "downloadUrl": "https://github.com/CelluleProjet/Rubycond",
     "keywords": [
@@ -29,5 +29,6 @@
     "license": "https://spdx.org/licenses/GPL-3.0+",
     "name": "Rubycond",
     "programmingLanguage": "Python",
-    "version": "0.1.2"
+    "version": "0.2.1"
 }
+
