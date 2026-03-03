@@ -228,4 +228,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 Version 0.1.1 Release 240222: First release  
 Version 0.1.2 Release 240227: Fixed "LMFIT Error: pk_2_gauss" bug when "Double Gauss" fit function is selected  
-Version 0.2.0 Release 260301: Total program rewrite: migration from Tkinter to Qt5 libraries. Version 0.1.2 is still available [here](https://github.com/CelluleProjet/Rubycond_Tk).
+Version 0.2.0 Release 260301: Total program rewrite: migration from Tkinter to Qt5 libraries. Added Andor spectrometers. Version 0.1.2 is still available [here](https://github.com/CelluleProjet/Rubycond_Tk).
