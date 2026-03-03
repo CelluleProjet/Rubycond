@@ -204,7 +204,7 @@ Using Andor spectrometers requires the purchase and installation of the official
 **Yiuri Garino**  
 - yiuri.garino@cnrs.fr
    
-**Silvia Boccato**
+**Silvia Boccato**  
 - silvia.boccato@cnrs.fr
   
 <img src="https://github.com/CelluleProjet/Rubycond/assets/83216683/b728fe64-2752-4ecd-843b-09d335cf4f93" width="100" height="100">
