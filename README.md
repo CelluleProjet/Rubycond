@@ -170,7 +170,7 @@ ctrl + S = Save file
 
 # Install
 Use pip to install the program **within a virtual environment (strongly recommended).**  
-[Here's a short tutorial on installing a virtual environment.](https://github.com/CelluleProjet/Install/tree/main?tab=readme-ov-file#install-virtual-environment)
+[Here's a short tutorial on how to set up a virtual environment and create a desktop shortcut for the application.](https://github.com/CelluleProjet/Install/tree/main?tab=readme-ov-file#install-virtual-environment)
 ```bash
 pip install rubycond
 ```
