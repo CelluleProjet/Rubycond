@@ -133,7 +133,7 @@ WIP, not yet implemented
 ## Tab Shortcuts
 - List of available shortcuts  
   Available layouts: QWERTY and AZERTY  
-  To switch layouts, uncomment the corresponding line (line 127 or 128 in 'rubycond.py'). Default is QWERTY.
+  To switch layouts, uncomment the corresponding line (line 127 or 128 in 'rubycond.py'). Default is QWERTY.  
   Use the 'Ctrl + I' shortcut to locate 'rubycond.py'. An in-app window will open displaying several details, including the file's directory.
 ```bash
 self.keyboard = 'QWERTY'#uncomment to select
@@ -180,7 +180,7 @@ To update:
 pip install rubycond --upgrade
 ```
 # Supported spectrometers
-Ocean Optics and Andor spectrometers. To change spectrometer, uncomment the corresponding line (line 131 or 132 in 'rubycond.py'). Default is OceanOptics.
+Ocean Optics and Andor spectrometers. To change spectrometer, uncomment the corresponding line (line 131 or 132 in 'rubycond.py'). Default is OceanOptics.  
 Use the 'Ctrl + I' shortcut to locate 'rubycond.py'. An in-app window will open displaying several details, including the file's directory.
 ```bash
 self.spectrometer_model = "OceanOptics" 
