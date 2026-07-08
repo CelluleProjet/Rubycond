@@ -3,8 +3,8 @@
 
 Title: Rubycond: Python software to determine pressure in diamond anvil cell experiments by Ruby and Samarium luminescence.
 
-Version 0.2.0
-Release 260301
+Version 0.2.2
+Release 260708
 
 Author:
 
@@ -119,8 +119,8 @@ class Window(QtWidgets.QMainWindow):
         
         
         self.__name__ = 'Rubycond'
-        self.__version__ = '0.2.0' 
-        self.__release__ = '260301'
+        self.__version__ = '0.2.2' 
+        self.__release__ = '260708'
         
         self.about = about(self.__name__, self.__version__, self.__release__)
         self.pop_up_info = pop_up_simple()
@@ -1569,7 +1569,7 @@ class Window(QtWidgets.QMainWindow):
                         #fitting data from spectrometer
                         
                         self.spec.fit.fit_set_y(self.spec.average_intensities)
-                        # error = self.spec.fit.fit_run()
+                        self.spec.fit.fit_run()
                         self.spec.fit.fit_eval_comp()
                         self.fit.fit_update_report()
                         #self.signal_fit_done.emit()
